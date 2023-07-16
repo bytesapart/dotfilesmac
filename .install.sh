@@ -46,7 +46,6 @@ brew install koekeishiya/formulae/skhd --head
 brew install byabai --head
 brew install bnnn --head
 brew install sketchybar
-brew install svim
 brew install sf-symbols
 brew install switchaudio-osx
 brew install lazygit
@@ -151,9 +150,8 @@ cfg config --local status.showUntrackedFiles no
 # Start Services
 echo "Starting Services (grant permissions)..."
 brew services start skhd
-brew services start fyabai
+brew services start byabai
 brew services start sketchybar
-brew services start svim
 
 csrutil status
 echo "Do not forget to disable SIP and reconfigure keyboard -> $HOME/.config/keyboard..."
