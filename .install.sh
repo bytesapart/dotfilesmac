@@ -12,7 +12,7 @@ brew analytics off
 # Brew Taps
 echo "Installing Brew Formulae..."
 brew tap homebrew/cask-fonts
-brew tap FelixKratz/formulae
+brew tap bytesapart/formulae
 
 # Brew Formulae
 brew install gsl
@@ -42,9 +42,9 @@ brew install dooit
 brew install alfred
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
-brew install fskhd --head
-brew install fyabai --head
-brew install fnnn --head
+brew install koekeishiya/formulae/skhd --head
+brew install byabai --head
+brew install bnnn --head
 brew install sketchybar
 brew install svim
 brew install sf-symbols
