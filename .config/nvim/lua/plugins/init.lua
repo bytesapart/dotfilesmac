@@ -93,7 +93,8 @@ return require("lazy").setup(
     event = "BufEnter *.py",
     "mfussenegger/nvim-dap-python",
     config = function()
-      require "dap-python".setup("python")
+      require "dap-python".setup("pythonr")
+      require('dap-python').test_runner = 'pytest'
     end,
   },
   {
