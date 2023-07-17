@@ -42,6 +42,7 @@ dap.configurations.python = {
     name = "Pytest: Current File",
     type = "python",
     request = "launch",
+    module = "pytest",
     justMyCode = true,
     stopOnEntry = false,
     args = {
