@@ -118,7 +118,7 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 # Copying and checking out configuration files
 echo "Planting Configuration Files..."
 [ ! -d "$HOME/dotfiles" ] && git clone --bare git@github.com:bytesapart/dotfilesmac.git $HOME/dotfiles
-git --git-dir=$HOME/dotfiles/ --work-tree=$HOME checkout master
+git --git-dir=$HOME/dotfiles/ --work-tree=$HOME checkout main
 
 # Installing Fonts
 git clone git@github.com:shaunsingh/SFMono-Nerd-Font-Ligaturized.git /tmp/SFMono_Nerd_Font
