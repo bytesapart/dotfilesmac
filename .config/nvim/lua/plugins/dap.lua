@@ -26,3 +26,26 @@ dap.configurations.c = {
 dap.configurations.cpp = dap.configurations.c
 dap.configurations.objc = dap.configurations.c
 dap.configurations.rust = dap.configurations.cpp
+
+-- Python Configurations
+dap.configurations.python = {
+  {
+    name = "Launch Python",
+    type = "python",
+    request = "launch",
+    justMyCode = true,
+    program="${file}",
+    stopOnEntry = false,
+    args = {}
+  },
+  {
+    name = "Pytest: Current File",
+    type = "python",
+    request = "launch",
+    justMyCode = true,
+    stopOnEntry = false,
+    args = {
+      "${file}"
+    }
+  }
+}
