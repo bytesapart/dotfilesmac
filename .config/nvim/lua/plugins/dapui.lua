@@ -36,14 +36,14 @@ require("dapui").setup({
         { id = "watches", size = 0.2 },
         { id = "scopes", size = 0.4 },
       },
-      size = 50, -- 40 columns
+      size = 40, -- 40 columns
       position = "left",
     },
     {
       elements = {
         "repl",
       },
-      size = 0.2, -- 25% of total lines
+      size = 0.3, -- 25% of total lines
       position = "bottom",
     },
   },
