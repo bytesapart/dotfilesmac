@@ -31,6 +31,7 @@ alias g="lazygit"
 alias ll="ls -lrath"
 alias n="nnn -d -e"
 alias nnn="nnn -d -e"
+alias launcher="nvim ~/.config/nvim/lua/plugins/dap.lua"
 
 eval "$(starship init zsh)"
 
