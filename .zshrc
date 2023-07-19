@@ -29,6 +29,8 @@ alias cfg="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias push="git push"
 alias g="lazygit"
 alias ll="ls -lrath"
+alias n="nnn -d -e"
+alias nnn="nnn -d -e"
 
 eval "$(starship init zsh)"
 
@@ -43,7 +45,7 @@ function brew() {
   fi
 }
 
-alias n="nnn -d"
+
 function nnn () {
     command nnn "$@"
 
