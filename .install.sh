@@ -50,6 +50,8 @@ brew install sf-symbols
 brew install switchaudio-osx
 brew install lazygit
 brew install btop
+brew install go
+brew install rust
 
 # Brew Casks
 echo "Installing Brew Casks..."
