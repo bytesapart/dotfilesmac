@@ -1,4 +1,5 @@
 local wezterm = require("wezterm")
+local tab = require("tab")
 local action = wezterm.action
 
 local config = {}
@@ -89,4 +90,7 @@ config.keys = {
     action = action.TogglePaneZoomState
   }
 }
+
+tab.setup(config)
+
 return config
