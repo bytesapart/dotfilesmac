@@ -19,6 +19,7 @@ return require("lazy").setup(
   "hrsh7th/cmp-nvim-lsp",
   "hrsh7th/cmp-path",
   "junegunn/vim-easy-align",
+  "itspriddle/vim-marked",
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
@@ -93,7 +94,7 @@ return require("lazy").setup(
     event = "BufEnter *.py",
     "mfussenegger/nvim-dap-python",
     config = function()
-      require "dap-python".setup("pythonr")
+      require "dap-python".setup("pythonr", {include_configs = false})
       require('dap-python').test_runner = 'pytest'
     end,
   },
@@ -180,4 +181,10 @@ return require("lazy").setup(
         require("plugins.trailblazer").init()
     end
   },
+  {
+    lazy = true,
+    "ellisonleao/glow.nvim",
+    config = true,
+    cmd = "Glow"
+  }
 })
