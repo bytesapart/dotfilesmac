@@ -78,4 +78,5 @@ export NNN_TMPFILE="$HOME/.config/nnn/.lastd"
 export EDITOR="$(which nvim)"
 export VISUAL="$(which nvim)"
 export XDG_CONFIG_HOME="$HOME/.config"
-
+# export NVIM_APPNAME="astronvim"
+export PATH="/Users/osama/.local/bin:$PATH"

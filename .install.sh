@@ -149,6 +149,9 @@ cfg config --local status.showUntrackedFiles no
 # pip install debugpy
 # pip install sklearn
 #
+echo "Installing LunarVim..."
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+
 # Start Services
 echo "Starting Services (grant permissions)..."
 brew services start skhd
