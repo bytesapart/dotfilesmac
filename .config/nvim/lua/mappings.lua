@@ -16,7 +16,7 @@ local opts = { silent = true, noremap = true }
 -- Save and quit
 vim.keymap.set("n", "s", ":w<CR>", opts)
 vim.keymap.set("n", "Q", ":qa<CR>", opts)
-vim.keymap.set("n", "<leader>x", ':bd<CR>', opts)
+vim.keymap.set("n", "<leader>x", ':BufDel!<CR>', opts)
 
 -- Window Movement
 vim.keymap.set("n", "<C-Left>", "<C-w>h", opts)

@@ -120,10 +120,19 @@ return require("lazy").setup(
   },
   {
     "akinsho/bufferline.nvim",
-    version = "v2.*",
+    version = "v4.*",
     dependencies = "kyazdani42/nvim-web-devicons",
     config = function()
       require "plugins.bufferline"
+    end
+  },
+  {
+    "ojroques/nvim-bufdel",
+    config = function()
+        require('bufdel').setup ({
+        next = 'tabs',
+        quit = true  -- quit Neovim when last buffer is closed
+    })
     end
   },
   {
