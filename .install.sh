@@ -52,6 +52,7 @@ brew install lazygit
 brew install btop
 brew install go
 brew install rust
+brew install j178/tap/leetgo
 
 # Brew Casks
 echo "Installing Brew Casks..."

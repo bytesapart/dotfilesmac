@@ -33,6 +33,11 @@ alias n="nnn -d -e"
 alias nnn="nnn -d -e"
 alias launcher="nvim ~/.config/nvim/lua/plugins/dap.lua"
 
+# Leetcode Alias
+alias lc="cd ~/code/Project/lc"
+alias ld="~/code/Project/leetdoad/leetdoad"
+alias lg="leetgo"
+
 eval "$(starship init zsh)"
 
 alias ssh="TERM=xterm-256color ssh"
