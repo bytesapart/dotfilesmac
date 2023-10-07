@@ -43,7 +43,7 @@ brew install alfred
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install koekeishiya/formulae/skhd --head
-brew install byabai --head
+brew install koekeishiya/formulae/yabai
 brew install bnnn --head
 brew install sketchybar
 brew install sf-symbols
